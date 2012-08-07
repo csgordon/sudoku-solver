@@ -1,0 +1,11 @@
+sudoku/Aboutbox.java:181: error: Calling a method with UIEffect effect from a context limited to SafeEffect effects.
+                    	/* BUG -- Colin Gordon, found by Sai as well */ javax.swing.JOptionPane.showMessageDialog(rootPane, e);
+                    	                                                                                         ^
+sudoku/Implementor.java:20: error: Calling a method with UIEffect effect from a context limited to SafeEffect effects.
+		    /* BUG -- Colin Gordon, found by Sai as well */ JOptionPane.showMessageDialog(null , "NO SOLUTION FOR THIS COMBINATION");
+		                                                                                 ^
+Note: sudoku/Usage.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sudoku/Options.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
