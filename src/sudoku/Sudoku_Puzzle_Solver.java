@@ -6,7 +6,7 @@ import javax.swing.text.*;
 import java.io.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.util.*;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 @UIType public class Sudoku_Puzzle_Solver extends javax.swing.JFrame  {
 
     /* Global variables ! Expected to be used in Both classes*/

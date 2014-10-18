@@ -1,6 +1,6 @@
 package sudoku;
 import javax.swing.text.*;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 @UIType class FilteredDocument extends DocumentFilter  {
     int maxSize;

@@ -4,7 +4,7 @@ package sudoku;
 
 import javax.swing.*;
 import java.awt.event.*;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 public class Options extends javax.swing.JFrame  {
 

@@ -1,3 +1,3 @@
 #!/bin/bash
-export PATH=~/research/guitypes/checker/binary:$PATH
-javac -Xmaxerrs 999 -cp /homes/gws/csgordon/research/guitypes/checker/dist/lib/guitypes-`date "+%Y%m%d"`.jar -processor guitypes.checkers.GUIEffectsChecker sudoku/*.java
+export PATH=$CHECKERFRAMEWORK/checker/bin:$PATH
+$CHECKERFRAMEWORK/checker/bin/javac -Xmaxerrs 999 -processor org.checkerframework.checker.guieffect.GuiEffectChecker src/sudoku/*.java

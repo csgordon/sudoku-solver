@@ -2,7 +2,7 @@ package sudoku;
 
 import javax.swing.*;
 import java.io.*;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 public class ObjectViewer extends javax.swing.JFrame {
 

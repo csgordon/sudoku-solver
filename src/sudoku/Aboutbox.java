@@ -6,7 +6,7 @@ import java.awt.Desktop;
 import java.net.URI;
 
 import javax.swing.SwingUtilities;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 public class Aboutbox extends javax.swing.JFrame {
 
     /** Creates new form Aboutbox */
