@@ -3,7 +3,7 @@
 package sudoku;
 import java.net.*;
 import java.awt.Cursor;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 public class Usage extends javax.swing.JFrame {
 
     private URL url;

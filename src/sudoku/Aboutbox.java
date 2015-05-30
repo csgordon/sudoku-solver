@@ -6,7 +6,7 @@ import java.awt.Desktop;
 import java.net.URI;
 
 import javax.swing.SwingUtilities;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 public class Aboutbox extends javax.swing.JFrame {
 
     /** Creates new form Aboutbox */
@@ -176,9 +176,11 @@ public class Aboutbox extends javax.swing.JFrame {
                         }
                     }
                     catch(Exception e){
-                    	//System.out.println("Current thread: " + Thread.currentThread().getId());
-                    	//System.out.println("Before accessing GUI: " + SwingUtilities.isEventDispatchThread());
-                    	/* BUG -- Colin Gordon, found by Sai as well */ javax.swing.JOptionPane.showMessageDialog(rootPane, e);
+                    	//debugging: System.out.println("Current thread: " + Thread.currentThread().getId());
+                    	//debugging: System.out.println("Before accessing GUI: " + SwingUtilities.isEventDispatchThread());
+                    	/* BUG -- Colin Gordon, found by Sai as well */
+                        javax.swing.JOptionPane.showMessageDialog(rootPane, e);
+//debugging:
 //                    	if(!SwingUtilities.isEventDispatchThread()) {
 //                        	throw new RuntimeException("Can not access GUI from a non-UI thread.");
 //                        }

@@ -16,8 +16,9 @@ class Implementor implements Runnable{
         if (solved)    // solves in place
             sudoku.Sudoku_Puzzle_Solver.solution(problem);
         else {
-        	//Note By Sai Zhang: if a Sudoku can not be solved, the thread will access a GUI object directly
-		    /* BUG -- Colin Gordon, found by Sai as well */ JOptionPane.showMessageDialog(null , "NO SOLUTION FOR THIS COMBINATION");
+		//Note By Sai Zhang: if a Sudoku can not be solved, the thread will access a GUI object directly
+		/* BUG -- Colin Gordon, found by Sai as well */
+            JOptionPane.showMessageDialog(null , "NO SOLUTION FOR THIS COMBINATION");
         }
     }
 
